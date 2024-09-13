@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Title - Fiddle Giggle Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="sticky-top bg-dark text-white">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center py-3">
+                <h1 class="logo">Fiddle-Giggle</h1>
+
+                <!-- Desktop Navigation Menu -->
+                <nav class="d-none d-md-flex">
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="hobbies.html">Hobbies</a></li>
+                        <li class="nav-item"><a class="nav-link text-white active" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Hamburger Menu for Mobile View -->
+                <div class="hamburger d-md-none">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <nav class="d-md-none">
+                <ul class="nav nav-links flex-column">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="hobbies.html">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link text-white active" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Post Section -->
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-12">
+                <h2>Post Title</h2>
+                <p class="text-muted">Posted on September 13, 2024</p>
+            </div>
+            <div class="col-12">
+                <img src="blogpost-image.jpg" alt="Post Image" class="img-fluid rounded mb-4">
+            </div>
+            <div class="col-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis sapien et turpis pulvinar
+                    aliquam. Vivamus luctus orci nec ligula cursus, vel aliquet justo vehicula. Integer tempor velit eu
+                    quam
+                    viverra, vitae vulputate justo scelerisque. Duis tempor consectetur eros a interdum. Praesent
+                    dapibus
+                    metus nec lorem tincidunt, in tempor orci ultrices. Integer viverra volutpat nisi, id tincidunt arcu
+                    aliquam a. Aliquam erat volutpat.</p>
+
+                <p>Nullam consectetur neque id volutpat vehicula. Curabitur pharetra ante vitae mollis auctor. Integer
+                    euismod consequat tortor, eget lacinia ex scelerisque ac. Suspendisse potenti. Donec et mi sed lorem
+                    tincidunt consectetur. Duis volutpat urna sapien, id pretium nulla cursus vel. Quisque tincidunt
+                    purus
+                    at eros ultricies, vel rhoncus nisi vestibulum.</p>
+
+                <p>Ut vehicula, ligula nec sollicitudin venenatis, sapien orci fermentum tortor, et faucibus ipsum velit
+                    eget risus. Sed in justo ac est ultricies auctor ac nec mi. Sed at ante nec velit elementum sodales
+                    eget eget lorem. Curabitur vestibulum pharetra lectus, ac malesuada lectus consequat et.
+                    Pellentesque
+                    mollis est nec neque eleifend gravida.</p>
+
+                <!-- Back Button -->
+                <a href="blog.html" class="btn btn-dark mt-4">Back to Blog</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white mt-auto py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 Fiddle-Giggle. All Rights Reserved.</p>
+            <p class="disclaimer">Disclaimer: All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
